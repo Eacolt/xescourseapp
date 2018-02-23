@@ -1,34 +1,3 @@
 [
-  {
-    "id":"card1_png",
-    "src":"static/img/001.png"
-  },
-  {
-    "id":"card2_png",
-    "src":"static/img/002.png"
-  },
-  {
-    "id":"card3_png",
-    "src":"static/img/003.png"
-  },
-  {
-    "id":"card4_png",
-    "src":"static/img/004.png"
-  },
-  {
-    "id":"card5_png",
-    "src":"static/img/005.png"
-  },
-  {
-    "id":"card6_png",
-    "src":"static/img/006.png"
-  },
-  {
-    "id":"card7_png",
-    "src":"static/img/007.png"
-  },
-  {
-    "id":"gamebg_png",
-    "src":"static/img/bg.jpg"
-  }
+
 ]
