@@ -1,3 +1,10 @@
 [
-
+  {
+    "id":"logo_png",
+    "src":"static/logo.png"
+  },
+  {
+    "id":"end_jpg",
+    "src":"static/end.jpg"
+  }
 ]

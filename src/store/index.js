@@ -11,9 +11,13 @@ const state = {
   goldnum: 0,
   assetAllComplete:false,
   isPost: false,//是否已经提交答案
+  gameConfig:null
 };
 const getters = {};
 const actions = {
+  SET_GAMECONFIG({commit},payload){
+    commit('setGameConfig',payload);
+  },
   SET_GAMECOMPLETE({commit},payload){
     commit('setAssetsCompleted',payload);
 
@@ -27,6 +31,9 @@ const actions = {
   }
 };
 const mutations = {
+  setGameConfig(state,payload){
+    state.gameConfig = payload;
+  },
   setAssetsCompleted(state,payload){
     state.assetAllComplete = payload;
   },
